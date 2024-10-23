@@ -382,7 +382,7 @@ class HaSidebar extends SubscribeMixin(LitElement) {
         ? html`<mwc-button outlined @click=${this._closeEditMode}>
             ${this.hass.localize("ui.sidebar.done")}
           </mwc-button>`
-        : html`<div class="title">Home Assistant</div>`}
+        : html`<div class="title">KS Assistant</div>`}
     </div>`;
   }
 

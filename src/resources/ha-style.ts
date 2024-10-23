@@ -8,7 +8,7 @@ import {
 
 const mainStyles = css`
   /*
-    Home Assistant default styles.
+    KS Assistant default styles.
 
     In Polymer 2.0, default styles should to be set on the html selector.
     (Setting all default styles only on body breaks shadyCSS polyfill.)

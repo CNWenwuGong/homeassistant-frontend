@@ -151,7 +151,7 @@ export class ThreadConfigPanel extends SubscribeMixin(LitElement) {
               slot="fab"
               @click=${this._importExternalThreadCredentials}
               extended
-              label="Send credentials to Home Assistant"
+              label="Send credentials to KS Assistant"
               ><ha-svg-icon slot="icon" .path=${mdiCellphoneKey}></ha-svg-icon
             ></ha-fab>`
           : nothing}

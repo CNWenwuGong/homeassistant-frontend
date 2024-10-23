@@ -560,7 +560,7 @@ export const demoEntitiesSections: DemoConfig["entities"] = (localize) =>
           "https://github.com/home-assistant/supervisor/commits/main",
         skipped_version: null,
         title: "Home Assistant Supervisor",
-        entity_picture: "https://brands.home-assistant.io/hassio/icon.png",
+        entity_picture: "/static/icons/maskable_icon-192x192.png",
         friendly_name: "Home Assistant Supervisor Update",
         supported_features: 1,
       },

@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#2157BC" />
-    <title>Home Assistant Design</title>
+    <title>KS Assistant Design</title>
     <% for (const entry of latestEntryJS) { %>
       <script type="module" src="<%= entry %>"></script>
     <% } %>

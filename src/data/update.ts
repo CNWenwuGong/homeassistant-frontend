@@ -66,22 +66,22 @@ export const filterUpdateEntities = (
       (entity) => computeStateDomain(entity) === "update"
     ) as UpdateEntity[]
   ).sort((a, b) => {
-    if (a.attributes.title === "Home Assistant Core") {
+    if (a.attributes.title === "KS Assistant Core") {
       return -3;
     }
-    if (b.attributes.title === "Home Assistant Core") {
+    if (b.attributes.title === "KS Assistant Core") {
       return 3;
     }
-    if (a.attributes.title === "Home Assistant Operating System") {
+    if (a.attributes.title === "KS Assistant Operating System") {
       return -2;
     }
-    if (b.attributes.title === "Home Assistant Operating System") {
+    if (b.attributes.title === "KS Assistant Operating System") {
       return 2;
     }
-    if (a.attributes.title === "Home Assistant Supervisor") {
+    if (a.attributes.title === "KS Assistant Supervisor") {
       return -1;
     }
-    if (b.attributes.title === "Home Assistant Supervisor") {
+    if (b.attributes.title === "KS Assistant Supervisor") {
       return 1;
     }
     return caseInsensitiveStringCompare(

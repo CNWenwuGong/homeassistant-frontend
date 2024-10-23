@@ -266,8 +266,8 @@ class HaOnboarding extends litLocalizeLiteMixin(HassElement) {
     try {
       const response = await fetchInstallationType();
       this._supervisor = [
-        "Home Assistant OS",
-        "Home Assistant Supervised",
+        "KS Assistant OS",
+        "KS Assistant Supervised",
       ].includes(response.installation_type);
       if (this._supervisor) {
         // Only load if we have supervisor

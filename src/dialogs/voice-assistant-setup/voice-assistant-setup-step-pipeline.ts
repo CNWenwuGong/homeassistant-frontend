@@ -70,7 +70,7 @@ export class HaVoiceAssistantSetupStepPipeline extends LitElement {
       </div>
       <ha-md-list>
         <ha-md-list-item interactive type="button" @click=${this._setupCloud}>
-          Home Assistant Cloud
+        KS Assistant Cloud
           <span slot="supporting-text"
             >Ideal if you don't have a powerful system at home</span
           >
@@ -177,7 +177,7 @@ export class HaVoiceAssistantSetupStepPipeline extends LitElement {
         )
       ).providers.find((provider) => provider.engine_id === cloudSttEntityId);
 
-      let pipelineName = "Home Assistant Cloud";
+      let pipelineName = "KS Assistant Cloud";
       let i = 1;
       while (
         pipelines.pipelines.find(

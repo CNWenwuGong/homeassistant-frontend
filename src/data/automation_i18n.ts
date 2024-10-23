@@ -137,7 +137,7 @@ const tryDescribeTrigger = (
     );
   }
 
-  // Home Assistant Trigger
+  // KS Assistant Trigger
   if (trigger.trigger === "homeassistant" && trigger.event) {
     return hass.localize(
       trigger.event === "start"

@@ -47,7 +47,7 @@ export class HaConversationAgentPicker extends LitElement {
     }
     let value = this.value;
     if (!value && this.required) {
-      // Select Home Assistant conversation agent if it supports the language
+      // Select KS Assistant conversation agent if it supports the language
       for (const agent of this._agents) {
         if (
           agent.id === "conversation.home_assistant" &&

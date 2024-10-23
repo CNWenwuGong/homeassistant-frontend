@@ -18,7 +18,7 @@ Home Assistant Cast is made up of two separate applications:
 - Go to https://cast.google.com/publish and enroll your account for the Google Cast SDK (costs \$5)
 - Register your Chromecast as a testing device by entering the serial
 - Add new application -> Custom Receiver
-  - Name: Home Assistant Dev
+  - Name: KS Assistant Dev
   - Receiver Application URL: http://IP-OF-DEV-MACHINE:8080/receiver.html
   - Guest Mode: off
   - Google Case for Audio: off

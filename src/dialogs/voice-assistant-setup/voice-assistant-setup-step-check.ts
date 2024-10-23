@@ -38,7 +38,7 @@ export class HaVoiceAssistantSetupStepCheck extends LitElement {
             </p>`
         : this._status === "timeout"
           ? html`<img src="/static/icons/casita/sad.png" />
-              <h1>Voice assistant can not connect to Home Assistant</h1>
+              <h1>Voice assistant can not connect to KS Assistant</h1>
               <p class="secondary">
                 A good explanation what is happening and what action you should
                 take.
@@ -50,7 +50,7 @@ export class HaVoiceAssistantSetupStepCheck extends LitElement {
           : html`<img src="/static/icons/casita/loading.png" />
               <h1>Checking...</h1>
               <p class="secondary">
-                We are checking if the device can reach your Home Assistant
+                We are checking if the device can reach your KS Assistant
                 instance.
               </p>
               <ha-circular-progress indeterminate></ha-circular-progress>`}

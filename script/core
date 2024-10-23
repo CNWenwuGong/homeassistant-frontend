@@ -1,5 +1,5 @@
 #!/bin/bash
-# Helper to start Home Assistant Core inside the devcontainer
+# Helper to start KS Assistant Core inside the devcontainer
 
 # Stop on errors
 set -e
@@ -37,7 +37,7 @@ while getopts "hr:s" opt; do
 done
 
 if [ -n "$ref" ]; then
-  echo "Installing Home Assistant core at ${ref}..."
+  echo "Installing KS Assistant core at ${ref}..."
   python3 -m pip install --user --upgrade --src "$HOME/src" \
   --editable "git+${coreURL}@${ref}#egg=homeassistant"
   (cd ~/src/homeassistant && exec python3 -m script.translations develop --all)

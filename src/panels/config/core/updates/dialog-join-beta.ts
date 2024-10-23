@@ -51,9 +51,9 @@ export class DialogJoinBeta
           ${this.hass.localize("ui.dialogs.join_beta_channel.release_items")}
         </p>
         <ul>
-          <li>Home Assistant Core</li>
-          <li>Home Assistant Supervisor</li>
-          <li>Home Assistant Operating System</li>
+          <li>KS Assistant Core</li>
+          <li>KS Assistant Supervisor</li>
+          <li>KS Assistant Operating System</li>
         </ul>
         <a
           href=${documentationUrl(this.hass!, "/faq/release/")}

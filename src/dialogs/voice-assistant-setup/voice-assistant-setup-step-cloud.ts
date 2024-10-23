@@ -11,12 +11,12 @@ export class HaVoiceAssistantSetupStepCloud extends LitElement {
   protected override render() {
     return html`<div class="content">
         <img src="/static/images/logo_nabu_casa.png" />
-        <h1>Supercharge your assistant with Home Assistant Cloud</h1>
+        <h1>Supercharge your assistant with KS Assistant Cloud</h1>
         <p class="secondary">
           Speed up and take the load off your system by running your
           text-to-speech and speech-to-text in our private and secure cloud.
           Cloud also includes secure remote access to your system while
-          supporting the development of Home Assistant.
+          supporting the development of KS Assistant.
         </p>
       </div>
       <div class="footer side-by-side">

@@ -59,7 +59,7 @@ export class HaVoiceAssistantSetupStepAddons extends LitElement {
             ? html`<div class="timing hass">5 seconds</div>`
             : nothing}
         </div>
-        <h3>Home Assistant Cloud</h3>
+        <h3>KS Assistant Cloud</h3>
         <div class="messages-container cloud">
           <div class="message user ${this._showFirst ? "show" : ""}">
             ${!this._showFirst ? "…" : "Turn on the lights in the bedroom"}
@@ -79,7 +79,7 @@ export class HaVoiceAssistantSetupStepAddons extends LitElement {
       </div>
       <div class="footer side-by-side">
         <ha-button @click=${this._goToCloud}
-          >Try Home Assistant Cloud</ha-button
+          >Try KS Assistant Cloud</ha-button
         >
         <a
           href=${documentationUrl(
